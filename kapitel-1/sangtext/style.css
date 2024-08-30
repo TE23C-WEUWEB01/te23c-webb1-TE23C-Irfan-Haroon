@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    background-image: url(./kostya-mikryukov-iX3fVzLgOB8-unsplash.jpg);
+}
+h1 {
+    color: blanchedalmond;
+    font-size: 70px;
+}
+h2 {
+    color: beige;
+    font-size: 30px;
+}
+p {
+    color: bisque;
+    font-size: 18px;
+}
