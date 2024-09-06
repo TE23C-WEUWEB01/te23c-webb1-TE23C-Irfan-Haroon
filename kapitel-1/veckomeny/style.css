@@ -1,0 +1,36 @@
+body {
+    background-color:  bisque;
+    
+}
+table {
+    width: 1250px;
+    background-color:rgb(255, 255, 255);
+    margin: 1px auto;
+    border-radius: 0 0 5px 5px;
+}
+caption {
+    padding: 30px;
+    font-size: 50px;
+    background-image: url(./bilder/images.jpg);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0 ;
+}
+tr {
+   
+}
+th {
+    font-size: 30px;
+    padding: 15px;
+    background-color: teal;
+}
+td {
+    font-size: 15px;
+    background-color: rgb(231, 184, 130);
+    padding: 10px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    width: 200px;
+}
