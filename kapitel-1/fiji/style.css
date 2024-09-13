@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    background-image: url(./bilder/shifaaz-shamoon-Rl9l9mL6Pvs-unsplash.jpg);
+    /* background-position: -100px -150px; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 100px;
+    color: #00d5ff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+h2 {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 60px;
+    color: #00d5ffe6;
+    margin-top: 75px;
+    margin-left: 100px;
+    text-shadow: 2px 2px 0 white;
+}
+
+p {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 40px;
+    margin-top: 175px;
+    margin-left: 1200px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: aquamarine;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
