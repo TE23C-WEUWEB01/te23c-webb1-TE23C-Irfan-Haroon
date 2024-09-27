@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body.sida1 {
+    background-image: url(./bilder/pattern-2726880_1280.png);
+}
+body.sida2 {
+    background-image: url(./bilder/james-mcdonald-GZMjMukr5zU-unsplash.jpg);
+}
+body.sida3 {
+    background-image: url(./bilder/pawel-czerwinski-I5A7oW933yE-unsplash.jpg);
+}
+body.sida4 {
+    background-image: url(./bilder/pawel-czerwinski-ezaikYIOLPg-unsplash.jpg);
+}
+body.sida5 {
+    background-image: url(./bilder/pawel-czerwinski-d7iIvTyzccY-unsplash.jpg);
+}
+body.sida6 {
+    background-image: url(./bilder/abstract-6305508_1280.jpg);
+}
+div {
+    background-color: #fff;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border: 5px dashed #4b4b4b;
+    padding:40px;
+}
+h1 {
+    font-family: "Arvo", serif;
+    
+}
+p {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+}
+a {
+    font-size: 40px;
+    text-decoration: none;
+    color:  red;
+}
