@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -11,27 +13,46 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 body {
-
+    background-color: #d4a373;
 }
 div.sidan {
-
+    width: 700px;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: #d5bdaf;
+    box-shadow: 0 0 50px #fff;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 div.inlägg {
-
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: #e3d5ca;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 h1 {
-
+    font-size: 50px;
+    text-align: center;
+    font-family: "DM Serif Text", serif;
 }
 h2 {
-
+    font-family: "Delius", cursive;
+    font-size: 30px;
+    margin-top: 10px;
 }
 img {
-
+    width: 100%;
+    border-radius: 5px;
 }
 p.datum {
-
+    margin-top: 10px;
+    font-family: "Delius", cursive, solid; 
 } 
 p {
-
+    margin-top: 10px;
+    font-family: "Delius", cursive;
 }
