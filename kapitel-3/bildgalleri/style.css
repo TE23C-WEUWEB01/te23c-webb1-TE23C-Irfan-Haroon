@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Iceland&family=Rubik+Dirt&display=swap');
+/* SIDANS BAKGRUND */
+body {
+    background-image: url(./bilder/AFRC2017-0233-007~large.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 -200px;
+}
+/* Kontainern utseende  */
+.kontainer {
+    background-color: #c3c3c340;
+    width: 800px;
+    padding: 30px;
+    margin: auto;
+    font-family: "Rubik Dirt", system-ui;
+
+}
+h1 {
+    color: white;
+    text-shadow: 0px 0px 40px #fff;
+    text-align: center;
+}
+h2 {
+    color: white;
+   
+    text-align: center;
+}
+
+/* Boxarnas utseende */
+.bild {
+    color: white;
+    background-color: gray;
+    padding: 30px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+h3 {
+    color: white;
+    font-family: "Iceland", sans-serif;
+    font-size: 25px;
+}
+img {
+    width: 100%;
+    width: 250px;
+}
+p {
+    font-family: "Iceland", sans-serif;
+}
