@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* layoutens utseende */
+body {
+
+}
+
+.kontainer {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    background-color: #d4e09b;
+   
+}
+
+/* Menyns utseende */
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #cbdfbd;
+    background-color: #f19c79;
+    padding: 10px 20px;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    text-shadow: 2px 2px 0 #999;
+
+}
+a:hover {
+    background-color: #A44A3F;
+}
+
+/* Innehållet */
+h1 {
+    font-family: "Shrikhand", serif;
+    color: #A44A3F;
+    font-size: 80px;
+    text-align: center;
+}
+
+figure {
+    background-color: #fff;
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+
+}
+
+p{
+
+}
+
+.tack {
+
+}
