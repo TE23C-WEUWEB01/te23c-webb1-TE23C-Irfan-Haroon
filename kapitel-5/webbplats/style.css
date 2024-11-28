@@ -15,7 +15,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* layoutens utseende */
 body {
-
+    background-color:  #e82323;
 }
 
 .kontainer {
@@ -23,47 +23,47 @@ body {
     width: 800px;
     padding: 20px;
     margin: auto;
-    background-color: #d4e09b;
+    background-color: #da7575;
    
 }
-
 /* Menyns utseende */
-ul {
+.kontainer ul {
     display: flex;
     justify-content: space-between;
 }
-
-li {
-    list-style-type: none;
-
+.kontainer ul .aktiv {
+   background-color:  #b93726;
 }
 
-a {
+.kontainer li {
+    list-style-type: none;
+}
+
+.kontainer a {
     text-decoration: none;
     color: #cbdfbd;
-    background-color: #f19c79;
+    background-color: #ef865a;
     padding: 10px 20px;
     border-radius: 3px;
     display: inline-block;
     text-align: center;
     width: 150px;
-    text-shadow: 2px 2px 0 #999;
 
 }
-a:hover {
+.kontainer a:hover {
     background-color: #A44A3F;
 }
 
 /* Innehållet */
-h1 {
+.kontainer h1 {
     font-family: "Shrikhand", serif;
     color: #A44A3F;
     font-size: 80px;
     text-align: center;
 }
 
-figure {
-    background-color: #fff;
+.kontainer figure {
+    background-color: #cb6565;
     padding: 30px;
     width: 60%;
     margin: auto;
@@ -71,7 +71,7 @@ figure {
     margin-bottom: 20px;
 }
 
-img {
+.kontainer img {
     width: 100%;
 }
 
@@ -79,10 +79,14 @@ figcaption {
 
 }
 
-p{
-
+.kontainer p{
+margin-bottom: 15px;
 }
-
-.tack {
-
+.kontainer .tack 
+{
+font-style: italic;
+}
+.kontainer .tack a {
+text-decoration: none;
+color: #000000;
 }
