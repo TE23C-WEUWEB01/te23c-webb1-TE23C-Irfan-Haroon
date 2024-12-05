@@ -1,0 +1,298 @@
+/* General Reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts and Colors */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #002b36;
+    color: #ffffff;
+    background-image: url('./bilder/aditya-vyas-PzhmEp_aDU4-unsplash.jpg');
+    background-size: cover;
+}
+
+/* Navigation */
+nav {
+    background-color: #ed2626;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    font-size: 2.5rem;
+    color: #f92500;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+section {
+    text-align: center;
+    max-width: 600px;
+}
+figure {
+    margin: 0;
+}
+figure img {
+    width: 100%;
+    border: 5px solid #ffffff;
+    border-radius: 15px;
+}
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #8b0000;
+    color: #ffffff;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-10%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(110%);
+        opacity: 0;
+    }
+}
+
+.snowflake1 {
+    position: absolute;
+    top: 0;
+    left: 500px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+
+.snowflake2 {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake3 {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake4 {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake5 {
+    position: absolute;
+    top: 55px;
+    left: 240px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake6 {
+    position: absolute;
+    top: 69px;
+    left: 474px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake7 {
+    position: absolute;
+    top: 10px;
+    left: 237px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake8 {
+    position: absolute;
+    top: 99px;
+    left: 630px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake8 {
+    position: absolute;
+    top: 70px;
+    left: 423px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake9 {
+    position: absolute;
+    top: 24px;
+    left: 428px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake10 {
+    position: absolute;
+    top: 44px;
+    left: 657px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake11 {
+    position: absolute;
+    top: 223px;
+    left: 413px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake12 {
+    position: absolute;
+    top: 78px;
+    left: 111px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake13 {
+    position: absolute;
+    top: 79px;
+    left: 234px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake14 {
+    position: absolute;
+    top: 124px;
+    left: 1200px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+
+.snowflake15 {
+    position: absolute;
+    top: 82px;
+    left: 1000px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake16 {
+    position: absolute;
+    top: 400px;
+    left: 1223px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake17 {
+    position: absolute;
+    top: 60px;
+    left: 1032px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake18 {
+    position: absolute;
+    top: 55px;
+    left: 1290px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake19 {
+    position: absolute;
+    top: 69px;
+    left: 1374px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake20 {
+    position: absolute;
+    top: 10px;
+    left: 1237px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake21 {
+    position: absolute;
+    top: 99px;
+    left: 930px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake22 {
+    position: absolute;
+    top: 70px;
+    left: 823px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake23 {
+    position: absolute;
+    top: 24px;
+    left: 1328px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake24 {
+    position: absolute;
+    top: 44px;
+    left: 1157px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake25 {
+    position: absolute;
+    top: 223px;
+    left: 1413px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake26 {
+    position: absolute;
+    top: 78px;
+    left: 1111px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+.snowflake27 {
+    position: absolute;
+    top: 79px;
+    left: 1234px;
+    font-size: 2rem;
+    animation: fall 5s linear infinite;
+}
+
+
