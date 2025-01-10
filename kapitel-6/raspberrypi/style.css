@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+   margin: 0;
+   padding: 0;
+}
+
+
+/* Layouten */
+body {
+    background: url(./bilder/red-left-63f167c004dbcda8174f14b627ea230e.svg);
+}
+.kontainer {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 100px;
+}
+
+/* Huvud */
+.kontainer h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.kontainer .intro {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Kolumnerna */
+.kontainer .kolumner-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    background: #eee;
+}
+.kontainer .kolumn {
+    border-radius: 15px;
+    background: #fff;
+    padding-bottom: 50px;
+}
+.kontainer .kolumn h3 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+}
+.kontainer .kolumn img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 10px;
+    
+}
+.kontainer .kolumn p {
+    margin: 10px;
+    color: #837777;
+}
+.kontainer .kolumn a {
+    margin: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+
+.kontainer .kolumn:hover {
+    border-radius: 15px;
+    background: #fff;
+    padding-bottom: 50px;
+    box-shadow: 2px 2px 2px;
+    text-decoration: underline;
+    
+}
