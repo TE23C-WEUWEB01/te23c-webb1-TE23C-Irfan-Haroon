@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+   margin: 0;
+   padding: 0;
+   background-color: black;
+}
+
+/* kontainer */
+.kontainer {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+/* Meny */
+.meny {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+}
+
+.meny h1 {
+    font-size: 24px;
+    color: white;
+}
+
+.meny nav a, .right-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.right-menu {
+    display: flex;
+    gap: 10px;
+}
+
+/* Page Title */
+.sida h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    color: white;
+}
+
+.sida p {
+    font-size: 16px;
+    max-width: 800px;
+}
+
+/* Tabs */
+.flikar {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+}
+
+.flikar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.flikar .aktiv {
+    color: #00FF00;
+    border-bottom: 3px solid #00FF00;
+}
+
+/* Program Grid */
+.rutor {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+/* Program Card */
+.program {
+    background-color: #222;
+    width: 220px;
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+.program img {
+    width: 100%;
+    height: auto;
+}
+
+.program h3 {
+    font-size: 12px;
+    color: #bbb;
+    margin-top: 8px;
+}
+
+.program h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.program p {
+    font-size: 14px;
+    color: #ddd;
+}
