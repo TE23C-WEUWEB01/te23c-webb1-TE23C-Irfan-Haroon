@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+   margin: 0;
+   padding: 0;
+}
+
+.wanderer {
+    background-color:  black;
+    color: white;
+}
+
+.wanderer main {
+    display: grid;
+    align-items: center;
+}
+.wanderer .vimeo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    overflow: hidden;
+
+}
+
+.wanderer .vimeo iframe {
+    width: 100vw;
+    height: 56.25vw;
+    min-width: 230vh;
+    min-height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+
+.venus {
+    background-color: burlywood;
+}
+.venus h1 {
+    color: black;
+}
+
+.venus header nav {
+    margin-bottom: 10px;
+}
+.venus header nav a {
+    color: black;
+}
+.venus header nav a:hover {
+    border-bottom: 3px solid black;
+}
+.venus header nav a.active {
+    border-bottom: 3px solid black;
+}
+.venus main figure figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
